@@ -16,17 +16,19 @@ These are the bug that I found:
    Moreover, it's better to use Math.round() to avoid decimals in out temperature.
 
 5. Syntax error: js line 19
-   Used the console.log to find out that value of that variable wasn't written correctly.
-   If we write the name of the function with ${} then we will have to write this quotes specifically ``.
+   Found reading the code. If we write the name of the function with ${} then we will have to write this quotes specifically ``.
 
 6. Logical error: js line 28
    Found reading the conditionals. Below 0 is <.
 
 7. Logical error: js line 30
-   Found reading the conditionals. Including the temperature 0 and 10 is >=.
+   Found reading the conditionals. Correct the conditional and finish it to make it between 0 and 10.
 
-8. Syntax error: js line 40
+8. Logical error: js line 32
+   Found reading the conditionals. Correct the conditional and finish it to make it more than 10 until 20.
+
+9. Syntax error: js line 40
    Found error in console pointing to incorrect line. Parameter without parenthesis.
 
-9. Runtime error: js line 41
-   Used the console.log to find out that the parameter wasn't use.
+10. Runtime error: js line 41
+    Used the console.log to find out that the parameter wasn't use.
