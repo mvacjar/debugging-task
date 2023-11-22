@@ -11,7 +11,7 @@ These are the bug that I found:
 3. Syntax error: js line 4
    Found error in console pointing to incorrect line. querySelector wasn't written correctly.
 
-4. Logical error: js line 17
+4. Runtime error: js line 17
    Found on console data.temp is undefined because we need to follow the order of the object: data.main.temp
    Moreover, it's better to use Math.round() to avoid decimals in out temperature.
 
